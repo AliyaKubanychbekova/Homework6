@@ -7,6 +7,9 @@ public class Main {
 	Boss boss = new Boss();
 	boss.setHealth(700);
 	boss.setDamage(250);
-	System.out.println(boss.getWeapon());
+
+	Weapon weapon = new Weapon();
+	boss.setWeapon(weapon);
+	System.out.println (boss);
     }
 }
