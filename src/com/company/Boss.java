@@ -1,7 +1,7 @@
 package com.company;
 
-public class Босс extends GameEntity{
-private Weapon weapon ;
+public class Boss extends GameEntity{
+    private Weapon weapon ;
 
     public Weapon getWeapon() {
         return weapon;
